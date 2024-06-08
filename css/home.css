@@ -1,0 +1,29 @@
+body{
+    background-color: #24353f;
+    font-family: sans-serif;
+}
+.my-nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: #24353f;
+    position: fixed;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.my-nav button{
+    transition: all 0.5s !important;
+}
+.my-nav button:hover{
+    background-color: rgb(155, 155, 41) !important;
+}
+.cont{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 50%;
+    height: 20vh;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #09c;
+}
